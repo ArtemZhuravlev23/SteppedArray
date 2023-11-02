@@ -35,6 +35,8 @@ public class SteppedArray {
         if (minMatrixValue != 0) {
             System.out.println("\nResult after division is: ");
             printMatrix(steppedArray);
+        } else {
+            System.out.println("You can't divide by 0!");
         }
     }
 
